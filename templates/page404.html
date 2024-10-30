@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="page-404">404</h1>
+<p class="text-404">Упс! Что-то не так.</p>
+<a class="notfound" href="{{ url_for('index') }}">Вернуться на главную страницу</a>
+{% endblock %}
